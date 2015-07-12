@@ -1,0 +1,115 @@
+/* input */
+input[type=text]{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width:100%;
+	padding: 15px;
+	border:1px solid #E3E3E3;
+}
+input[type=submit]
+{
+	margin-bottom: 20px;
+	width:100%;
+	padding: 15px;
+	border:1px solid #7ac9b7;
+	background-color: #4180C5;
+	color: aliceblue;
+	font-size:15px;
+	cursor:pointer;
+}
+#submit:hover
+{
+ background-color: black;
+}
+textarea{
+	width:100%;
+	padding: 15px;
+	margin-top: 10px;
+    border:1px solid #7ac9b7;
+	margin-bottom: 20px;
+	resize:none;
+  } 
+input[type=text]:focus,textarea:focus {
+	border-color: #4697e4;
+}
+
+/* notification message */
+.success{
+width:92%;
+margin:5px;
+border:1px solid #1D6F16;
+background-color:#fff;
+border-left:4px solid #1D6F16;
+color:#1D6F16;
+padding:10px;
+}
+.error{
+width:92%;
+margin:5px;
+border:1px solid #BC1117;
+border-left:4px solid #BC1117;
+background-color:#fff;
+color:#BC1117;
+padding:10px;
+}
+
+
+/* calendar */
+.ui-highlight .ui-state-default{
+	background:#A3CCE8;
+	border-color:#A3CCE8;
+	color:#000000;
+}
+.ui-state-active{
+	background-color:#52A9E4 !important;
+	border-color:#52A9E4 !important;
+}
+
+/* address lists */
+
+ul.add-lists {
+	list-style: none;
+	font-size: 0px;
+}
+ul.add-lists li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.add-lists li h3 {
+	margin: 0 0 5px;
+}
+ul.add-lists li p {
+	font-size: 12px;
+	line-height: 15px;
+}
+/* class for 2 columns */
+ul.add-lists.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.add-lists.columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.add-lists.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
+ 
+@media (max-width: 480px) {
+	ul.add-lists {
+		margin-left: 0;
+	}
+	ul.add-lists li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
