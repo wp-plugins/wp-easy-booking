@@ -1,0 +1,104 @@
+msgid "Please login to create ticket."
+msgstr "Log ind for at oprette billet ."
+
+msgid "Please enter ticket subject."
+msgstr "Indtast billet emne ."
+
+msgid "Please enter ticket message."
+msgstr "Indtast billet besked ."
+
+msgid "Error: Ticket cannot be created."
+msgstr "Kan ikke oprettes Billet : Fejl ."
+
+msgid "Support ticket created successfully."
+msgstr "Support billet oprettet."
+
+msgid "Please login to add reply."
+msgstr "Log ind for at tilf&oslash;je svar."
+
+msgid "Please enter reply message."
+msgstr "Indtast svarmeddelelse ."
+
+msgid "Error: Reply cannot be created."
+msgstr "Kan ikke oprettes Svar : Fejl ."
+
+msgid "Reply added successfully."
+msgstr "Besvar tilf&oslash;jet."
+
+msgid "A new ticket is created."
+msgstr "En ny billet oprettes."
+
+msgid "Message:"
+msgstr "Besked:"
+
+msgid "Hello,"
+msgstr "Hej"
+
+msgid "Your new support ticket is successfully added."
+msgstr "Din nye support billet tilf&oslash;jet."
+
+msgid "Thank You"
+msgstr "Tak"
+
+msgid "New support ticket"
+msgstr "Ny st&oslash;tte billet"
+
+msgid "A new ticket reply is posted on "
+msgstr "En ny billet svar er lagt ud p&aring;"
+
+msgid "New reply added"
+msgstr "Nyt svar tilf&oslash;jet"
+
+msgid "Subject"
+msgstr "Emne"
+
+msgid "Ticket Title"
+msgstr "Billet Titel"
+
+msgid "Message"
+msgstr "besked"
+
+msgid "Submit"
+msgstr "Indsend"
+
+msgid "Please login to create support ticket."
+msgstr "Venligst login for at oprette support billet ."
+
+msgid "Ticket"
+msgstr "billet"
+
+msgid "Please login to search ticket."
+msgstr "Venligst login for at s&oslash;ge billet ."
+
+msgid "Status"
+msgstr "status"
+
+msgid "Please login to view support ticket."
+msgstr "Venligst login for at se støtte billet ."
+
+msgid "Last Post By"
+msgstr "Sidste indl&aelig;g af"
+
+msgid "Support ticket not found"
+msgstr "Support billet ikke fundet"
+
+msgid "Previous"
+msgstr "Forrige"
+
+msgid "Next"
+msgstr "næste"
+
+msgid "Please login to view support ticket."
+msgstr "Venligst login for at se st&oslash;tte billet ."
+
+msgid "No reply posted yet."
+msgstr "Intet svar postet endnu."
+
+msgid "Author"
+msgstr "Forfatter"
+
+msgid "Posts"
+msgstr "Indl&aelig;g"
+
+msgid "Reply"
+msgstr "Svar"

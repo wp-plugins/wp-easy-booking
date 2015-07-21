@@ -1,0 +1,27 @@
+/* notification message */
+.success{
+width:92%;
+margin:5px;
+border:1px solid #1D6F16;
+background-color:#fff;
+border-left:4px solid #1D6F16;
+color:#1D6F16;
+padding:10px;
+}
+.error{
+width:92%;
+margin:5px;
+border:1px solid #BC1117;
+border-left:4px solid #BC1117;
+background-color:#fff;
+color:#BC1117;
+padding:10px;
+}
+
+.sc_list{
+width:100%;
+float:left;
+border-top:1px solid #ccc;
+padding:5px;
+margin-bottom:10px;
+}
