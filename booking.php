@@ -3,7 +3,7 @@
 Plugin Name: WP Booking
 Plugin URI: http://aviplugins.com/
 Description: This is a schedule booking plugin. Use this plugin as a complete booking solution for your site. Create Locations, Add Schedules to the locations, Let customers book for schedules. Manage bookings from admin panel.
-Version: 1.0.0
+Version: 1.1.0
 Author: avimegladon
 Author URI: http://avifoujdar.wordpress.com/
 */

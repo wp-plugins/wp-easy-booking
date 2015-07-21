@@ -131,7 +131,7 @@ class booking_general_class {
         <input type="text" name="c_phone" required="required" placeholder="<?php _e('Phone','wpb');?>"/>
     </div>
     
-    <div class="form-group"><input name="submit" type="submit" value="<?php _e('Submit','wpb');?>" /></div>
+    <div class="form-group"><input name="submit" type="submit" value="<?php _e('Book Now','wpb');?>" /></div>
     </form>
     </div>
     <?php

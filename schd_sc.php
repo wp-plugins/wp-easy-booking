@@ -124,6 +124,7 @@ function schd_booking_locations_shortcode( $atts ) {
 			<li>
             	<h3><a href="<?php echo get_permalink($loc->ID);?>"><?php echo $loc->post_title;?></a></h3>
             	<p><?php echo nl2br(get_post_meta($loc->ID,'booking_address',true));?></p>
+                <p><a href="<?php echo get_permalink($loc->ID);?>"><?php _e('Book Now','wpb');?></a></p>
             </li>
 	<?php } 
 	echo '</ul>';

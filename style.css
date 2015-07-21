@@ -70,11 +70,13 @@ padding:10px;
 ul.add-lists {
 	list-style: none;
 	font-size: 0px;
+	margin:0;
+	padding:0;
 }
 ul.add-lists li {
 	display: inline-block;
 	padding: 10px;
-	margin: 0 0 2.5% 2.5%;
+	margin: 0 2.5% 2.5% 0;
 	background: #fff;
 	border: 1px solid #ddd;
 	font-size: 16px;
@@ -86,6 +88,9 @@ ul.add-lists li {
 }
 ul.add-lists li h3 {
 	margin: 0 0 5px;
+}
+ul.add-lists li h3 a {
+	text-decoration:none;
 }
 ul.add-lists li p {
 	font-size: 12px;

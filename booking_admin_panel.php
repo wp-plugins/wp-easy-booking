@@ -35,7 +35,7 @@ class booking_admin_panel{
 				wp_dropdown_pages( $args ); 
 			?><i><font color="#FF0000"><?php _e('Important','wpb');?></font></i>
 				<br />
-				<i><?php _e('Please create a new page, put this shortcode <strong>[schd_booking_form]</strong> in the page and select the page as the "Booking Form Page". You dont have to put that page in navigation.','wpb');?></i></td>
+				<i><?php _e('Please create a new page, put this shortcode <strong>[schd_booking_form]</strong> in the page and select the page as the "Booking Form Page". You don\'t have to put that page in navigation.','wpb');?></i></td>
 		  </tr>
           
       </tr>
@@ -57,6 +57,15 @@ class booking_admin_panel{
 		  <tr>
 			<td>&nbsp;</td>
 			<td><input type="submit" name="submit" value="Save" class="button button-primary button-large" /></td>
+		  </tr>
+           <tr>
+			<td colspan="2"><hr /><h2>Shortcodes</h2></td>
+		  </tr>
+          <tr>
+			<td colspan="2">
+            <p>1. <strong>[schd_booking_locations]</strong> This will display all the available locations.</p>
+            <p>2. <strong>[schd_calendar no_of_month="2"]</strong> Put this in the <strong>Booking Address</strong> page. This will let users to book a schedule form a jQuery UI Calendar. Shortcode instructions are in the <strong>Booking Address</strong> page as well.</p>
+            </td>
 		  </tr>
 		</table>
 		</form>

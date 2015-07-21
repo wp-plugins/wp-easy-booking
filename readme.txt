@@ -6,7 +6,7 @@ Tags: wp booking, booking, event, event book, event booking, appointment, appoin
 Requires at least: 2.0.2
 
 Tested up to: 4.2.2
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,11 +24,22 @@ This is a schedule booking plugin. Use this plugin as a complete booking solutio
 * Users also get an email when the register for a schedule.
 * View/ Manage booking log in admin panel. 
 
+= Usage =
+ 
+1. Create some locations. `Booking Addresses -> Add New`
+1a. Add schedules for that location.
+1b. Put this shortcode [schd_calendar no_of_month="2"] in the content section of the location. This will enable bookin calendar in the location details page. With this jQuery calendar users will be able to choose a schedule and book.
+2. Create a page say "Booking Form" and put this shortcode [schd_booking_form] in that page. You don't have to add this page in the navigation. This page will be used internally by the plugin for showing the booking form.
+2a. Go to `Settings -> WP Booking` and in the "Booking Form Page:" drop down menu select "Booking Form" the page you have created.
+3. Create a page say "Locations" and put the shortcode [schd_booking_locations]. You need to put this page in the navigation of your site.
+4. Thats All. Every this is setup properly. Go to frontend and test it.
+ 
+
 == Installation ==
 
 1. Upload `wp-booking.zip` to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Go to `Settings->WP Booking`, and set some options. It's really easy.
+3. Go to `Settings -> WP Booking`, and set some options. It's really easy.
 
 == Frequently Asked Questions ==
 
@@ -38,9 +49,18 @@ Please email me demoforafo@gmail.com. Contact me at http://www.aviplugins.com/su
 
 == Screenshots ==
 
-1. settings page view
+1. Locations grid view frontend.
+2. Booking Calendar.
+3. Booking Form.
+4. Booking Log admin panel.
+5. Settings page admin panel.
+6. Location Address creation admin panel.
+7. Add/ Create Schedules for locations.
 
 == Changelog ==
+
+= 1.1.0 =
+* Some bug fixes and with more explained usage details.
 
 = 1.0.0 =
 * this is the first release.
