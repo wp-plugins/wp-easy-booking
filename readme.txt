@@ -27,10 +27,10 @@ This is a schedule booking plugin. Use this plugin as a complete booking solutio
 = Usage =
  
 1. Create some locations. `Booking Addresses -> Add New`
-1a. Add schedules for that location.
-1b. Put this shortcode [schd_calendar no_of_month="2"] in the content section of the location. This will enable bookin calendar in the location details page. With this jQuery calendar users will be able to choose a schedule and book.
+* 1a. Add schedules for that location.
+* 1b. Put this shortcode [schd_calendar no_of_month="2"] in the content section of the location. This will enable bookin calendar in the location details page. With this jQuery calendar users will be able to choose a schedule and book.
 2. Create a page say "Booking Form" and put this shortcode [schd_booking_form] in that page. You don't have to add this page in the navigation. This page will be used internally by the plugin for showing the booking form.
-2a. Go to `Settings -> WP Booking` and in the "Booking Form Page:" drop down menu select "Booking Form" the page you have created.
+* 2a. Go to `Settings -> WP Booking` and in the "Booking Form Page:" drop down menu select "Booking Form" the page you have created.
 3. Create a page say "Locations" and put the shortcode [schd_booking_locations]. You need to put this page in the navigation of your site.
 4. Thats All. Every this is setup properly. Go to frontend and test it.
  
