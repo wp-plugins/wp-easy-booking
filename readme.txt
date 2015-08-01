@@ -33,6 +33,18 @@ This is a schedule booking plugin. Use this plugin as a complete booking solutio
 5. Go to `Settings -> WP Booking` and in the "Booking Form Page:" drop down menu select "Booking Form" the page you have created.
 6. Create a page say "Locations" and put the shortcode [schd_booking_locations]. You need to put this page in the navigation of your site.
 7. Thats All. Every this is setup properly. Go to frontend and test it.
+
+
+= WP Booking PRO =
+
+The PRO version has additional features.<br>
+* Option for payments. PayPal PRO and PayPal Standard payment gateways are integrated.<br>
+* Put Google Map in the location details page. Maps can created with the plugin.
+* Customer emails can be customized from the admin panel.
+
+<br>
+Click <a href="http://www.aviplugins.com/wp-booking-pro/">here</a> for full details. <a href="http://www.aviplugins.com/wp-booking-pro/">Get it for</a> <strong>USD 2.00</strong> 
+
  
 
 == Installation ==
